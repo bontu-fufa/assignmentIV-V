@@ -1,0 +1,68 @@
+
+.whole{
+    margin-top: 100px;
+}
+img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10%;
+    float: left;
+    margin-right: 20px;
+}
+h3{
+    padding-top: 10px;
+    margin-left: 25%;
+    font-size: larger;
+    border-bottom: teal solid 2px;
+
+}
+.article h3{
+    margin-left: 5px;
+    padding-top: 25px;
+    border-top: 2px solid black;
+}
+
+.hobbies ul li{
+    margin-top: 10px;
+    margin-left: 25%;
+    text-shadow: yellow;
+
+}
+.hobbies li{
+    list-style-type: none;
+    font-size: medium;
+    
+}
+.hobbies li li{
+    list-style-type: none;
+    margin-left: 10%;
+    font-size: 15px;
+    font-style: normal;
+}
+.hobbies .inner{
+ 
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+.workExp .column{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 15%;
+    float: left;
+    padding-right: 40px;
+}
+.clear{
+    clear: left;
+}
+.skills .column{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 15%;
+    float: left;
+    padding-right: 40px;
+}
+
