@@ -1,0 +1,40 @@
+
+#container{
+    height: 510px;
+    padding-top: 0px ;
+    margin-top: 0px;
+}
+
+#left { 
+    float:left; 
+    width:200px; 
+} 
+#middle{ 
+    float:left; 
+    border-left: solid green 3px;
+    padding-left: 10px;
+} 
+#right{ 
+    float:right; 
+    width:200px; 
+    text-align: right;
+    border: 3px dotted green;
+    padding-right: 5px;
+    padding-bottom: 20px;
+} 
+h2{
+    padding-top: 0px ;
+    margin-top: 0px;
+}
+#left a , #right a {
+    display: block;
+
+}
+h1{ 
+    text-align:center; 
+    background-color: yellow;
+} 
+
+#last-line{
+    text-align: center;
+}
