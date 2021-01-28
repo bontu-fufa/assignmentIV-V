@@ -1,0 +1,64 @@
+body{
+    display: block;
+}
+#green{
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    background-color: #00C200;
+    border-top: 1px solid darkgreen;
+}
+h1{
+    position: fixed;
+    color: red;
+    text-align: center;
+    font-size: 300%;
+    width: 100%;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#tree{
+    position: fixed;
+    height: 54%;    
+    right: 5%;
+    bottom:3%;
+    z-index: 2;
+
+}
+#cow{
+position: fixed;
+left: 22%;
+bottom: 19%;
+z-index: 1;
+}
+
+#cow-2{
+position: fixed;
+left: 54%;
+bottom: 19%;
+z-index: 1;
+}
+#sheep{
+position: fixed;
+left: 10%;
+bottom: 3%;
+z-index: 1;
+}
+#sun{
+position: absolute;
+right: 10%;
+top: 1%;
+z-index: 1;
+height: 80%;
+}
+#birds{
+position: absolute;
+left: 20%;
+top: 3%;
+z-index: 1;
+height: 50%;
+transform: scaleX(-1);
+}
+
