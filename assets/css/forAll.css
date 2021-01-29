@@ -243,6 +243,18 @@ i{
 
 /* Desktop menu */
 @media all and (min-width: 900px) {
+    .box-block{
+        display: block;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: absolute;
+    }
+    i{
+        margin-right: 10px;
+    }
+    .icons{
+        margin-left: 10px;
+    }
     #has-border{
         border-right: dotted 2px white;
     }
