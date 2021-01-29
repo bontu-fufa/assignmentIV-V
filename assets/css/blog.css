@@ -1,11 +1,10 @@
 
 
+
 section{
     /* border: solid 1px; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 5px 30px;
-    margin-top: 100px;
-    margin-left: 25%;
+    margin: 2rem 1rem 2rem 20%;
 }
 section a {
     text-decoration: none;
@@ -16,7 +15,9 @@ article{
     font-size: medium;
     line-height: 25px;
     text-align: justify;
-    border-right: greenyellow solid 5px;
+    border-left: rgb(114, 60, 60) solid 5px;
+    background-color: rgba(114, 60, 60,0.2);
+    padding: 1rem;
     
 }
 article p {
@@ -27,7 +28,8 @@ article h3{
     font-style: italic;
     font-size: medium;
     font-weight: bold;
-    color: olivedrab;
+    color:black;
+    margin-left: 1rem;
 }
 
 img{
@@ -39,44 +41,6 @@ img{
     float: left;
     margin-right: 20px;
 }
-/* changing nature */
-/* nav ul li {
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav ul li a {
-    text-decoration: none;
-   
-}
-nav ul li:hover{
-    background-color: whitesmoke;
-} */
-nav{
-    position: relative;
-    margin-left: 25%;
-    font-size: larger;
-    font-style: oblique;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    padding: 5px;
-    text-align: center;
-    border-bottom: 4px solid darkslategrey;
-
-}
-nav *{
-    display: inline;
-    margin: 30px;
-}
-nav li a{
-    color: black;
-    text-decoration: none;
-}
-nav ul li:hover{
-    background-color:whitesmoke;
-}
-
 #clear{
     clear: left;
 }
@@ -91,4 +55,11 @@ nav ul li:hover{
     font-style: italic;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+@media all and  (max-width:720px){
+    section{
+        margin: 2rem ;
+    }
+
 }
