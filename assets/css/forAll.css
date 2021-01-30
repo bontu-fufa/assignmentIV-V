@@ -135,12 +135,6 @@ footer img{
     border-right: dotted 2px white;
 }
 
-.box-block{
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    position: absolute;
-}
 i{
     margin-right: 10px;
 }
