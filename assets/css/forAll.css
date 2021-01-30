@@ -16,16 +16,16 @@ a {
   text-decoration: none;
   text-transform: capitalize;
 }
-a:visited{
+nav a:visited{
   text-decoration: none  gold;
   color: gold;
 
 
 }
-a:hover {
+nav a:hover {
   text-decoration: underline  gold;
 }
-a:active{
+nav a:active{
     text-decoration: underline  gold;
     color: gold;
 }
